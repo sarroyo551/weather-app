@@ -1,0 +1,23 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: rgb(141, 141, 248);
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 4px; 
+    text-align: center
+}
+#searchButton {
+    border-radius: 4px;
+    background-color: rgb(141, 141, 248);
+    color: white;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.randomCity {
+    background-color: rgb(190, 181, 181);
+    border-radius: 4px;
+}
