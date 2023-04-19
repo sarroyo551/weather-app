@@ -11,8 +11,8 @@
     <header>
         <h1>Weather Dashboard</h1>
     </header>
-
-    <aside id="leftAside">
+  <div id="mainDiv">
+    <div id="leftAside">
         <h2>Search for a City:</h2>
         <form class="cityForm">
         <input type="text" placeholder="Search...">
@@ -20,15 +20,21 @@
         <button id="searchButton">Search</button>
     </form>
         <button class="randomCity">Atlanta</button>
-    </aside>
-
-    <div id="dayTempDiv">
-        <h3>Atlanta (9/13/2022)</h3>
     </div>
 
+    <div id="dayTempDiv">
+        <h3>Atlanta (9/13/2022) 🌞</h3>
+        <p>Temp:63 F</p>
+        <p>Wind: 3.9 MPH</p>
+        <p>Humidity: 63%</p>
+    </div>
+  </div>  
+  
+  <div id="downDiv">
     <h3>5-Day Forecast:</h3>
     <div>
         <div id="dayCard">
+            //needs to be at the bottom//
             <p><bold>9/14/2022</bold></p>
             <p>🌞</p>
             <p>Temp:63 F</p>
@@ -36,6 +42,7 @@
             <p>Humidity: 63%</p>
         </div>
     </div>
+  </div>
   <script src="./script.js"></script>   
 </body>
 </html>

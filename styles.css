@@ -24,14 +24,28 @@ header {
 
 #dayTempDiv {
     background-color:  rgb(141, 141, 248);
-    display: block;
-    justify-content: end;
     border: 1px solid black;
-    text-align:end
+    width: 50%;
+    height: 100%;
+    float: right;
 }
 
 #dayCard {
      background-color:  rgb(65, 65, 172);
      border: 1px solid black;
      color: white;
+}
+
+#mainDiv {
+    width: 100%;
+}
+
+#leftAside {
+    width: 50%;
+    height: 100%;
+    float: left;    
+}
+
+#downDiv {
+    /* text-align: center; */
 }
