@@ -21,3 +21,17 @@ header {
     background-color: rgb(190, 181, 181);
     border-radius: 4px;
 }
+
+#dayTempDiv {
+    background-color:  rgb(141, 141, 248);
+    display: block;
+    justify-content: end;
+    border: 1px solid black;
+    text-align:end
+}
+
+#dayCard {
+     background-color:  rgb(65, 65, 172);
+     border: 1px solid black;
+     color: white;
+}
