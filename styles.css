@@ -25,9 +25,7 @@ header {
 #dayTempDiv {
     background-color:  rgb(141, 141, 248);
     border: 1px solid black;
-    width: 50%;
     height: 100%;
-    float: right;
 }
 
 #dayCard {
@@ -38,14 +36,21 @@ header {
 
 #mainDiv {
     width: 100%;
+    display: flex;
 }
 
 #leftAside {
-    width: 50%;
+    width: 30%;
     height: 100%;
-    float: left;    
 }
 
+#rightAside {
+    width: 70%;
+    
+}
 #downDiv {
     /* text-align: center; */
+    /* height: 100%;
+    width: 100%; */
+
 }
